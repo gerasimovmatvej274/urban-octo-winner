@@ -1,0 +1,7 @@
+            active: CustomTransitionViewModifier(scale: scale, rotation: rotation),
+            identity: CustomTransitionViewModifier(scale: 1, rotation: 0))
+        .animation(.linear(duration: 5))
+    }
+    
+    static var customAsymmetric: AnyTransition {
+        asymmetric(
